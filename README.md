@@ -16,7 +16,9 @@ Backend is Node.js with Express and frontend is React.js.
 - Chart.js for graphs
 
 ---
-
+## 🚀 Live Demo
+- **Live App:** https://your-vercel-app-url.vercel.app  <-- (Make sure to paste your actual Vercel link here!)
+- **GitHub Repo:** https://github.com/Kartavyasonar/finflow
 ## How to Run
 
 Need Node.js v18 or above.
