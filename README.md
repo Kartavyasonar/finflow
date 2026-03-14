@@ -17,7 +17,7 @@ Backend is Node.js with Express and frontend is React.js.
 
 ---
 ## 🚀 Live Demo
-- **Live App:** https://your-vercel-app-url.vercel.app  <-- (Make sure to paste your actual Vercel link here!)
+- **Live App:** https://finflow-pi.vercel.app/
 - **GitHub Repo:** https://github.com/Kartavyasonar/finflow
 ## How to Run
 
