@@ -76,7 +76,13 @@ app.use((err, _req, res, _next) => {
     error: "Internal server error"
   });
 });
-
+// Keep Render free tier alive — ping every 14 minutes
+const SELF_URL = process.env.RENDER_EXTERNAL_URL || `http://localhost:${PORT}`;
+setInterval(() => {
+  fetch(`${SELF_URL}/api/health`)
+    .then(() => console.log('🏓 Self-ping OK'))
+    .catch((e) => console.log('🏓 Self-ping failed:', e.message));
+}, 14 * 60 * 1000);
 
 
 app.listen(PORT, () => {
